@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  path:
+
   json_ast: "^1.0.5"
   convert: "^2.0.1"
   dart_style: "^1.0.10"
