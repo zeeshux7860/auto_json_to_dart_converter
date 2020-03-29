@@ -1,6 +1,8 @@
-# auto_json_to_dart_converter
+# Auto Json to Dart Converter
 
 A new Flutter plugin.
+
+Special thanks to [Javiercbk](https://github.com/javiercbk/json_to_dart)
 
 ## Getting Started
 

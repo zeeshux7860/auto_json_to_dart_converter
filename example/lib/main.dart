@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
   Future<void> getdata() async {
     AutoJsonToDartConverterGetMethod(
             'https://raw.githubusercontent.com/javiercbk/json_to_dart/master/example/sample.json',
-            'Zeeshan')
+            'Zeeshan',null)
         .getmethod
         .then((onValue) {
       print(onValue.toString());
