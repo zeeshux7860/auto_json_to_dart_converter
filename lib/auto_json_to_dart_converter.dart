@@ -18,7 +18,7 @@ class AutoJsonToDartConverterGetMethod {
   DartCode dartCode = classGenerator.generateDartClasses(res.body);
   print(dartCode.warnings.length);
   var path = await ExtStorage.getExternalStorageDirectory();
-  var p =await  Directory(path+'/json_to_dart').create(recursive: true);
+  await  Directory(path+'/json_to_dart').create(recursive: true);
    File(path+'/json_to_dart/'+modelName.toLowerCase()+'.dart').writeAsStringSync(dartCode.result);
     return dartCode.result;
   }

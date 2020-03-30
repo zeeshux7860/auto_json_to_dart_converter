@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:dartpoet/dartpoet.dart';
-import 'package:flutter/services.dart';
 import 'package:auto_json_to_dart_converter/auto_json_to_dart_converter.dart';
 
 void main() => runApp(MyApp());
@@ -12,7 +10,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
+ 
 
   @override
   void initState() {

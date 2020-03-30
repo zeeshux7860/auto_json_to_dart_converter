@@ -1,6 +1,6 @@
 name: auto_json_to_dart_converter
-description: A new Flutter plugin.
-version: 0.0.1
+description: Generate JSON to Dart and save it in folder json_to_dart on mobile
+version: 1.0.0
 homepage: https://github.com/zeeshux7860/auto_json_to_dart_converter
 
 environment:
